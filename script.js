@@ -1,6 +1,6 @@
 //your code here!
 
-const list = document.querySelector('0l');
+const list = document.querySelector(ol);
 let page = 1;
 
 function addItems() {
@@ -15,7 +15,7 @@ function addItems() {
 
 addItems();
 
-document.addEventListener('scroll', () => {
+window.addEventListener('scroll', () => {
   const { scrollTop, scrollHeight, clientHeight } = document.documentElement;
   if (scrollTop + clientHeight >= scrollHeight - 5) {
     page++;
