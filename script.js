@@ -15,7 +15,7 @@ function addItems() {
 
 addItems();
 
-window.addEventListener('scroll', () => {
+document.addEventListener('scroll', () => {
   const { scrollTop, scrollHeight, clientHeight } = document.documentElement;
   if (scrollTop + clientHeight >= scrollHeight - 5) {
     page++;
