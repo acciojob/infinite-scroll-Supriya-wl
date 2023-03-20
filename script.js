@@ -1,6 +1,6 @@
 //your code here!
 
-const list = document.querySelector('ul');
+const list = document.querySelector('0l');
 let page = 1;
 
 function addItems() {
